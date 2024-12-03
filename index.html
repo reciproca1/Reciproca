@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECIPROCA O.d.v.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Навигационная панель -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#attivita">Attività</a></li>
+                    <li><a href="#chi-siamo">Chi Siamo</a></li>
+                    <li><a href="#contatti">Contatti</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Первый блок -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Benvenuti nel mondo di RECIPROCA</h1>
+            <p>dove il coraggio e la generosità si fondono per creare un futuro migliore per tutti.</p>
+            <img src="images/logo.png" alt="RECIPROCA Logo" class="logo">
+        </div>
+    </section>
+
+    <!-- Второй блок -->
+    <section id="chi-siamo" class="about">
+        <div class="container">
+            <h2>Chi Siamo</h2>
+            <p>Siamo un gruppo di volontari uniti dal valore della solidarietà reciproca. Con impegno e compassione, operiamo per portare luce e conforto a chi attraversa momenti di difficoltà, ispirati dall’idea di un aiuto che rende il mondo più umano.</p>
+            <img src="images/team.jpg" alt="Il nostro team" class="team-photo">
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="attivita" class="gallery">
+        <div class="container">
+            <h2>Le Nostre Attività</h2>
+            <p>Scorri attraverso le immagini che raccontano storie di speranza, amore e solidarietà.</p>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/photo1.jpg" alt="Foto 1"></div>
+                    <div class="swiper-slide"><img src="images/photo2.jpg" alt="Foto 2"></div>
+                    <div class="swiper-slide"><img src="images/photo3.jpg" alt="Foto 3"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Новости -->
+    <section id="notizie" class="news">
+        <div class="container">
+            <h2>Ultime Notizie</h2>
+            <div class="news-grid">
+                <img src="images/news1.jpg" alt="Articolo 1">
+                <img src="images/news2.jpg" alt="Articolo 2">
+                <img src="images/news3.jpg" alt="Articolo 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Мы в медиа -->
+    <section id="media" class="media">
+        <div class="container">
+            <h2>Noi sui Media</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=78vBMt76u2Q" target="_blank">YouTube</a></li>
+                <li><a href="https://www.centropagina.it/pesaro/attualita-tir-solidarieta-ucraina-volontari-associazione-reciproca/" target="_blank">Articolo</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contatti" class="contacts">
+        <div class="container">
+            <h2>Contattaci</h2>
+            <form action="#" method="post" class="contact-form">
+                <input type="text" name="name" placeholder="Il tuo Nome" required>
+                <input type="email" name="email" placeholder="La tua Email" required>
+                <textarea name="message" placeholder="Il tuo Messaggio" required></textarea>
+                <button type="submit" class="button">Invia</button>
+            </form>
+            <p>Telefono: +39 351 6683202</p>
+            <p>WhatsApp: +39 351 6683202</p>
+            <p>Email: <a href="mailto:reciproca71@gmail.com">reciproca71@gmail.com</a></p>
+            <p>Indirizzo: via Sirolo, 5 - 61122 Pesaro PU</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 RECIPROCA O.d.v. - Tutti i Diritti Riservati</p>
+    </footer>
+</body>
+</html>
